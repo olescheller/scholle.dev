@@ -56,7 +56,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo "";?>">About</a>
+                        <a class="nav-link" href="<?php echo get_home_url() . "/about"?>">About</a>
                     </li>
                 </ul>
             </div>
