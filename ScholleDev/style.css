@@ -243,3 +243,13 @@ figcaption {
   font-size: 1rem;
   font-weight: 400;
 }
+
+.footer a {
+  color: #aaa;
+  
+}
+
+.footer a:hover {
+  color: #eee;
+
+}
