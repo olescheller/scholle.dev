@@ -27,6 +27,15 @@
     ?>
 </div>
 
+<?php
+$tag = get_queried_object();
+?>
+
+<h1>
+    <?php echo '#' . $tag->slug ?>
+</h1>
+
+
 <div class="post-summary-container main-content">
     <?php
     if (have_posts()) :  ?>
